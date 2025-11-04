@@ -11,7 +11,7 @@ body {
 }
 .container {
   width: 90%;
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -115,7 +115,6 @@ nav a:hover::after {
   display: block;
 }
 
-/* Servicios - pastillas */
 .servicios {
   padding: 2rem 0;
 }
@@ -138,7 +137,6 @@ nav a:hover::after {
   font-family: "Oswald", sans-serif;
 }
 
-/* Galería */
 .galeria {
   padding: 2rem 0;
 }
@@ -156,7 +154,6 @@ nav a:hover::after {
   object-fit: cover;
 }
 
-/* Noticia */
 .noticia {
   padding: 2rem;
   background: linear-gradient(180deg, #fff, #faf7fb);
@@ -166,7 +163,6 @@ nav a:hover::after {
   margin-top: 1rem;
 }
 
-/* Sobre */
 .sobre {
   padding: 2rem 0;
 }
@@ -185,7 +181,6 @@ nav a:hover::after {
   width: 100%;
 }
 
-/* Contacto */
 .contacto {
   padding: 2rem 0;
 }
@@ -214,7 +209,6 @@ nav a:hover::after {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
 }
 
-/* Footer */
 .site-footer {
   background: #111;
   color: #fff;
@@ -242,9 +236,6 @@ nav a:hover::after {
   width: fit-content;
 }
 
-/* ===== FLEXBOX & MEDIA QUERIES (usado con sentido) ===== */
-
-/* Make header nav use flex nicely on small screens */
 @media (max-width: 900px) {
   .header-inner {
     flex-direction: column;
@@ -275,7 +266,6 @@ nav a:hover::after {
   }
 }
 
-/* Mobile adjustments */
 @media (max-width: 480px) {
   nav ul {
     gap: 0.6rem;
